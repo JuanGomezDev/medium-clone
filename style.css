@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    padding: 20px 20% 80px 20%;
+    font-size: 20px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+
+figcaption {
+    color: gray;
+}
+
+.content {
+    text-align: left;
+}
+
+p {
+    margin-top: 42px;
+    letter-spacing: -0.003em;
+    line-height: 32px;
+}
+
+ol {
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+em {
+    margin-top: 42px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 62px;
+    font-weight: bolder;
+}
+
+blockquote {
+    color: rgba(0,0,0,0.8);
+    padding-left: 30px;
+    box-shadow: rgb(36, 36, 36) 3px 0px 0px 0px inset;
+}
+
+.enlaces {
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.enlace a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #242424;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 100px;
+    padding: 8px 16px;
+    line-height: 20px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
