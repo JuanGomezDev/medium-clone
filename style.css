@@ -5,21 +5,24 @@ body {
     font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-
+/* Info corta debajo del grafico */
 figcaption {
     color: gray;
 }
 
+/* Contenido dentro de article */
 .content {
     text-align: left;
 }
 
+/* Estilos para el texto general */
 p {
     margin-top: 42px;
     letter-spacing: -0.003em;
     line-height: 32px;
 }
 
+/* Estilos para las listas enumeradas */
 ol {
     margin-top: 42px;
     display: flex;
@@ -27,31 +30,33 @@ ol {
     gap: 40px;
 }
 
+/* Para el texto en cursiva */
 em {
     margin-top: 42px;
 }
 
+/* Estilos para los encabezados */
 h1 {
     font-size: 50px;
 }
-
 h2 {
     margin-top: 62px;
     font-weight: bolder;
 }
 
+/* Estilos para frases */
 blockquote {
     color: rgba(0,0,0,0.8);
     padding-left: 30px;
     box-shadow: rgb(36, 36, 36) 3px 0px 0px 0px inset;
 }
 
+/* Estilos para los enlaces de temas relacionados */
 .enlaces {
     margin-top: 80px;
     display: flex;
     gap: 20px;
 }
-
 .enlace a {
     text-decoration: none;
     font-size: 14px;
