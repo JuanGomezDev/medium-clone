@@ -1,0 +1,39 @@
+// Estilos componente Content
+
+/* Contenido dentro de article */
+.content {
+    text-align: left;
+    
+    /* Estilos para el texto general */
+    p {
+        margin-top: 42px;
+        letter-spacing: -0.003em;
+        line-height: 32px;
+    }
+
+    /* Estilos para las listas enumeradas */
+    ol {
+        margin-top: 42px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* Para el texto en cursiva */
+    em {
+        margin-top: 42px;
+    }
+
+    /* Estilos para los encabezados */
+    h2 {
+        margin-top: 62px;
+        font-weight: bolder;
+    }
+
+    /* Estilos para frases */
+    blockquote {
+        color: rgba(0,0,0,0.8);
+        padding-left: 30px;
+        box-shadow: rgb(36, 36, 36) 3px 0px 0px 0px inset;
+    }
+}

@@ -1,0 +1,15 @@
+// Estilos componente Link
+
+.link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #242424;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 100px;
+    padding: 8px 16px;
+    line-height: 20px;
+    &:hover {
+        cursor: pointer;
+    }
+}
